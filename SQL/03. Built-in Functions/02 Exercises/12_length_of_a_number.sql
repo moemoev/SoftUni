@@ -1,0 +1,5 @@
+SELECT
+	population,
+	LENGTH(population::VARCHAR)
+FROM
+	countries;
