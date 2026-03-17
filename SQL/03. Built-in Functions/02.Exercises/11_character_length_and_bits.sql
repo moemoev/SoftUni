@@ -1,6 +1,7 @@
 SELECT
 	CONCAT(M.mountain_range, ' ', P.peak_name) AS mountain_information,
 	CHAR_LENGTH(CONCAT(M.mountain_range, ' ', P.peak_name)) AS characters_length,
+	-- OCTET_LENGTH(CONCAT(M.mountain_range, ' ', P.peak_name)) * 8 AS bits_of_a_string
 	BIT_LENGTH(CONCAT(M.mountain_range, ' ', P.peak_name)) AS bits_of_a_string
 FROM
 	mountains AS M
