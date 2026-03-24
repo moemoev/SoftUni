@@ -11,4 +11,6 @@ SELECT
 		ELSE 'Other'
 	END AS department_name
 FROM
-	employees;
+	employees
+ORDER BY
+	id;
