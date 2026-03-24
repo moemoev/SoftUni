@@ -1,4 +1,4 @@
 SELECT
-	MIN(deposit_charge) AS minimum_deposti_charge
+	MIN(deposit_charge) AS minimum_deposit_charge
 FROM
 	wizard_deposits;
