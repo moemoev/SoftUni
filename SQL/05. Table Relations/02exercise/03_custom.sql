@@ -2,7 +2,9 @@ CREATE TABLE IF NOT EXISTS passports(
 	id INT GENERATED ALWAYS AS IDENTITY (START WITH 100 INCREMENT BY 1) PRIMARY KEY,
 	nationality VARCHAR(50)
 );
-
+------------------------
+-- Note that GENERATED ALWAYS AS IDENTITY is making use of CUSTOM SEQEUNCE
+------------------------
 INSERT INTO
 	passports(nationality)
 VALUES
