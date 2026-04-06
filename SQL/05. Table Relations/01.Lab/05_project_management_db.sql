@@ -28,3 +28,9 @@ ADD CONSTRAINT fk_employees_projects
 		FOREIGN KEY(project_id)
 		REFERENCES projects(id)
 ;
+
+
+-----------
+-- Create DB seperately
+
+CREATE DATABASE project_management_db;
